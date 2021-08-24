@@ -22,7 +22,7 @@ class SystemWindowText {
     final Map<String, dynamic> map = <String, dynamic>{
       'text': text,
       'fontSize': fontSize ?? 14.0,
-      'fontWeight': Commons.getFontWeight(fontWeight!),
+      'fontWeight': Commons.getFontWeight(fontWeight),
       'textColor': textColor?.value ?? Colors.black.value,
       'padding': padding?.getMap(),
     };
