@@ -40,7 +40,7 @@ class Commons {
     }
   }
 
-  static String getFontWeight(FontWeight fontWeight) {
+  static String getFontWeight(FontWeight? fontWeight) {
     if (fontWeight == null) fontWeight = FontWeight.NORMAL;
     switch (fontWeight) {
       case FontWeight.BOLD:
